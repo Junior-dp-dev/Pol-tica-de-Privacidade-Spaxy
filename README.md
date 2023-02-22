@@ -1,1 +1,1 @@
-# Pol-tica-de-Privacidade-Spaxy
+# Privacy Policy
