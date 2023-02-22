@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta charset="utf-8">
+  <title>Política de Privacidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    button {
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background-color: #006080;
+    }
+
+    .lang {
+      display: none;
+    }
+
+    .lang.active {
+      display: block;
+    }
+  </style>
+  <script>
+    function toggleLanguage(lang) {
+      document.querySelectorAll('.lang').forEach(function (elem) {
+        elem.classList.remove('active');
+      });
+      document.querySelector('#' + lang).classList.add('active');
+    }
+  </script>
+</head>
+
+<body>
+  <button onclick="toggleLanguage('en')">English</button>
+  <button onclick="toggleLanguage('pt')">Português</button>
+
+  <div id="en" class="lang active">
+    <h1>Privacy Policy</h1>
+    <p>JLL Games developed game does not collect any personal information from the users. We respect the privacy of our users and are committed to protecting their information.</p>
+    <p>This game may display ads provided by Google Ads. Google Ads may collect information about the user's device and browsing behavior to provide personalized ads. To learn more about Google Ads data collection, please refer to Google Ads privacy policy.</p>
+    <p>This game uses Google Play Games to offer social gaming features such as scores and achievements. Google Play Games may collect information about the user's gaming activities, including scores, achievements, and game friends. To learn more about Google Play Games data collection, please refer to Google Play Games privacy policy.</p>
+    <p>The game stores local information on the user's device, including scores, power-ups, and items purchased from the game store. The game store uses virtual currency, which cannot be exchanged for real money. The stored information is used to provide a personalized gaming experience and is not shared with any third parties.</p>
+    <p>By using this game, you agree to this privacy policy. If you have any questions or concerns about this privacy policy, please contact us at jhum.dp@gmail.com.</p>
+    <p>This privacy policy may be updated periodically. We recommend that you review this privacy policy regularly to stay informed about any changes.</p>
+  </div>
+
+  <div id="pt" class="lang">
+    <h1>Política de Privacidade</h1>
+    <p>O jogo desenvolvido pela JLL Games não coleta informações pessoais dos usuários. Nós respeitamos a privacidade dos nossos usuários e estamos comprometidos em proteger suas informações.</p>
+    <p>Este jogo pode exibir anúncios fornecidos pelo Google Ads. O Google Ads pode coletar informações sobre o dispositivo do usuário e o comportamento de navegação para fornecer anúncios personalizados. Para saber mais sobre a coleta de dados do Google Ads, consulte a política de privacidade do Google Ads.</p>
+    <p>Este jogo usa o Google Play Games para oferecer recursos de jogos sociais, como pontuações e conquistas. O Google Play Games pode coletar informações sobre as atividades de jogos do usuário, incluindo pontuações, conquistas e amigos do jogo. Para saber mais sobre a coleta de dados do Google Play Games, consulte a política de privacidade do Google Play Games.</p>
+    <p>O jogo armazena informações locais no dispositivo do usuário, incluindo pontuações, power-ups e itens comprados na loja do jogo. A loja do jogo usa moeda virtual, que não pode ser trocada por dinheiro real. As informações armazenadas são usadas para fornecer uma experiência de jogo personalizada e não são compartilhadas com terceiros.</p>
+    <p>Ao usar este jogo, você concorda com esta política de privacidade. Se você tiver alguma dúvida ou preocupação sobre esta política de privacidade, entre em contato conosco em jhum.dp@gmail.com.</p>
+    <p>Esta política de privacidade pode ser atualizada periodicamente. Recomendamos que você revise esta política de privacidade regularmente para se manter informado sobre quaisquer alterações.</p>
+  </div>
+</body>
+
+</html>
